@@ -8,8 +8,7 @@ namespace DataAccess.Models
 	{
 		public Destinations Destinations { get; set; }
 		public DateTime DateTime { get; set; }
-		public User User { get; set; }
+		public Users User { get; set; }
 		public double Price { get; set; }
-		public int MyProperty { get; set; }
 	}
 }

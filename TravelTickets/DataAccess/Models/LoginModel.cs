@@ -9,7 +9,7 @@ namespace DataAccess.Models
 		public string Email { get; set; }
 		public string Password { get; set; }
 		public role Role { get; set; }
-		public User User { get; set; }
+		public Users User { get; set; }
 
 
 	}

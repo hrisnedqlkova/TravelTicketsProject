@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DataAccess.Models
 {
-	public class User : BaseModel
+	public class Users : BaseModel
 	{
 		public string FName { get; set; }
 		public string SName { get; set; }

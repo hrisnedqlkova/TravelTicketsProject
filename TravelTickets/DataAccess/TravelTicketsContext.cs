@@ -15,7 +15,7 @@ namespace DataAccess
 		public DbSet<role> Roles { get; set; }
 		public DbSet<Sails> Sails { get; set; }
 		public DbSet<Transport> Transport { get; set; }
-		public DbSet<User> Users { get; set; }
+		public DbSet<Users> Users { get; set; }
 
 
 
